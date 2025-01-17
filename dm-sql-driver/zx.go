@@ -8,12 +8,13 @@ import (
 	"context"
 	"database/sql"
 	"database/sql/driver"
-	"dm/util"
 	"errors"
 	"io"
 	"regexp"
 	"strings"
 	"time"
+
+	"github.com/go-sicky/extra/dm-sql-driver/util"
 )
 
 const (

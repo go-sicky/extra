@@ -5,9 +5,10 @@
 package dm
 
 import (
-	"dm/util"
 	"strconv"
 	"time"
+
+	"github.com/go-sicky/extra/dm-sql-driver/util"
 )
 
 var DB2G db2g

@@ -7,13 +7,14 @@ package dm
 
 import (
 	"bufio"
-	"dm/util"
 	"io"
 	"os"
 	"runtime"
 	"strconv"
 	"strings"
 	"sync"
+
+	"github.com/go-sicky/extra/dm-sql-driver/util"
 )
 
 var LogDirDef, _ = os.Getwd()

@@ -6,12 +6,13 @@ package dm
 
 import (
 	"bytes"
-	"dm/util"
 	"io"
 	"math/big"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/go-sicky/extra/dm-sql-driver/util"
 )
 
 var G2DB g2db

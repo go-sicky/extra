@@ -5,12 +5,13 @@
 package dm
 
 import (
-	"dm/util"
 	"fmt"
 	"math"
 	"os"
 	"strconv"
 	"strings"
+
+	"github.com/go-sicky/extra/dm-sql-driver/util"
 )
 
 const (
@@ -132,7 +133,7 @@ const (
 
 	Dm_build_339 int32 = 0xFFFE - 3
 
-	Dm_build_340 int32 = 0XFFFE - 4
+	Dm_build_340 int32 = 0xFFFE - 4
 
 	Dm_build_341 int32 = 0xFFFE
 

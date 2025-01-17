@@ -6,10 +6,11 @@ package dm
 
 import (
 	"bytes"
-	"dm/parser"
-	"dm/util"
 	"strconv"
 	"strings"
+
+	"github.com/go-sicky/extra/dm-sql-driver/parser"
+	"github.com/go-sicky/extra/dm-sql-driver/util"
 )
 
 func (dc *DmConnection) lex(sql string) ([]*parser.LVal, error) {

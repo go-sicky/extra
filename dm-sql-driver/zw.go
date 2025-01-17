@@ -6,11 +6,12 @@
 package dm
 
 import (
-	"dm/util"
 	"math/rand"
 	"strconv"
 	"sync"
 	"time"
+
+	"github.com/go-sicky/extra/dm-sql-driver/util"
 )
 
 var rwMap sync.Map

@@ -6,7 +6,6 @@
 package dm
 
 import (
-	"dm/util"
 	"fmt"
 	"math"
 	"strconv"
@@ -14,6 +13,8 @@ import (
 	"time"
 	"unicode"
 	"unicode/utf8"
+
+	"github.com/go-sicky/extra/dm-sql-driver/util"
 )
 
 type oracleDateFormat struct {

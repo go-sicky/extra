@@ -5,8 +5,9 @@
 package dm
 
 import (
-	"dm/util"
 	"strconv"
+
+	"github.com/go-sicky/extra/dm-sql-driver/util"
 )
 
 const (
